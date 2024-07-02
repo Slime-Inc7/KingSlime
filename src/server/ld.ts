@@ -23,7 +23,7 @@ export const AUTHOR_LIST = {
   lobehub: {
     avatar: 'https://avatars.githubusercontent.com/u/131470832?v=4',
     desc: 'Official Account',
-    name: 'LobeHub',
+    name: 'Slime.Inc', // 변경된 부분
     url: 'https://github.com/lobehub',
   },
 };
@@ -54,14 +54,14 @@ class Ld {
       '@graph': [
         this.genWebSite(),
         webpage?.enable &&
-          this.genWebPage({
-            ...webpage,
-            date,
-            description,
-            image,
-            title,
-            url,
-          }),
+        this.genWebPage({
+          ...webpage,
+          date,
+          description,
+          image,
+          title,
+          url,
+        }),
         image && this.genImageObject({ image, url }),
         this.genOrganization(),
       ].filter(Boolean),
@@ -72,7 +72,7 @@ class Ld {
     return {
       '@id': this.getId(SITE_URL, '#organization'),
       '@type': 'Organization',
-      'alternateName': 'LobeChat',
+      'alternateName': 'KingSlime', // 변경된 부분
       'contactPoint': {
         '@type': 'ContactPoint',
         'contactType': 'customer support',
@@ -89,7 +89,7 @@ class Ld {
         'url': urlJoin(OFFICIAL_SITE, '/icon-512x512.png'),
         'width': 512,
       },
-      'name': 'LobeHub',
+      'name': 'Slime.Inc', // 변경된 부분
       'sameAs': [
         X,
         'https://github.com/lobehub',
@@ -192,7 +192,7 @@ class Ld {
       '@type': 'WebSite',
       'description': pkg.description,
       'inLanguage': 'en-US',
-      'name': 'LobeChat',
+      'name': 'KingSlime', // 변경된 부분
       'publisher': {
         '@id': this.getId(SITE_URL, '#organization'),
       },
@@ -207,7 +207,7 @@ class Ld {
   }
 
   private fixTitle(title: string) {
-    return title.includes('LobeChat') ? title : `${title} · LobeChat`;
+    return title.includes('KingSlime') ? title : `${title} · KingSlime`; // 변경된 부분
   }
 
   private fixUrl(url: string) {

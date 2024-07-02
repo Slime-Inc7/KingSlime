@@ -55,7 +55,7 @@ const StoreInitialization = memo(() => {
   useStoreUpdater('router', router);
 
   // Import settings from the url
-  const searchParam = useSearchParams().get(LOBE_URL_IMPORT_NAME);
+  const searchParam = useSearchParams()?.get(LOBE_URL_IMPORT_NAME) || ''; // 여기서 null 가능성을 처리
   useEffect(() => {
     importUrlShareSettings(searchParam);
   }, [searchParam]);

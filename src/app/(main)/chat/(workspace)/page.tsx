@@ -11,7 +11,7 @@ export const generateMetadata = async () => {
   const { t } = await translation('metadata');
   return metadataModule.generate({
     description: t('chat.description'),
-    title: t('chat.title'),
+    title: t('KingSlime'),
     url: '/chat',
   });
 };
@@ -21,7 +21,7 @@ const Page = async () => {
   const { t } = await translation('metadata');
   const ld = ldModule.generate({
     description: t('chat.description'),
-    title: t('chat.title'),
+    title: t('KingSlime'),
     url: '/chat',
   });
 

@@ -12,7 +12,7 @@ export default {
   },
   analytics: {
     telemetry: {
-      desc: '通过选择发送遥测数据，你可以帮助我们改善 LobeChat 整体用户体验',
+      desc: '通过选择发送遥测数据，你可以帮助我们改善 KingSlime 整体用户体验',
       title: '发送匿名使用数据',
     },
     title: '数据统计',
@@ -43,6 +43,7 @@ export default {
     title: '设置',
   },
   llm: {
+    aesGcm: '您的秘钥与代理地址等将使用 <1>AES-GCM</1> 加密算法进行加密',
     apiKey: {
       desc: '请填写你的 {{name}} API Key',
       placeholder: '{{name}} API Key',
@@ -70,12 +71,12 @@ export default {
         },
         files: {
           extra:
-            '当前 LobeChat 的文件上传实现仅为一种 Hack 方案，仅限自行尝试。完整文件上传能力请等待后续实现',
+            '当前 KingSlime 的文件上传实现仅为一种 Hack 方案，仅限自行尝试。完整文件上传能力请等待后续实现',
           title: '支持文件上传',
         },
         functionCall: {
           extra:
-            '此配置将仅开启 LobeChat 中的函数调用能力，是否支持函数调用完全取决于模型本身，请自行测试该模型的函数调用能力可用性',
+            '此配置将仅开启 KingSlime 中的函数调用能力，是否支持函数调用完全取决于模型本身，请自行测试该模型的函数调用能力可用性',
           title: '支持函数调用',
         },
         id: {
@@ -90,7 +91,7 @@ export default {
         },
         vision: {
           extra:
-            '此配置将仅开启 LobeChat 中的图片上传配置，是否支持识别完全取决于模型本身，请自行测试该模型的视觉识别能力可用性',
+            '此配置将仅开启 KingSlime 中的图片上传配置，是否支持识别完全取决于模型本身，请自行测试该模型的视觉识别能力可用性',
           title: '支持视觉识别',
         },
       },
@@ -116,7 +117,7 @@ export default {
       desc: '除默认地址外，必须包含 http(s)://',
       title: 'API 代理地址',
     },
-    waitingForMore: '更多模型正在 <1>计划接入</1> 中，敬请期待 ✨',
+    waitingForMore: '更多模型正在 <1>计划接入</1> 中，敬请期待',
   },
   plugin: {
     addTooltip: '自定义插件',

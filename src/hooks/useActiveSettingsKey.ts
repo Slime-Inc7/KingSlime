@@ -1,5 +1,6 @@
-import { usePathname } from 'next/navigation';
+'use client';
 
+import { usePathname } from 'next/navigation';
 import { useQuery } from '@/hooks/useQuery';
 import { SettingsTabs } from '@/store/global/initialState';
 
@@ -7,7 +8,7 @@ import { SettingsTabs } from '@/store/global/initialState';
  * Returns the active setting page key (common/sync/agent/...)
  */
 export const useActiveSettingsKey = () => {
-  const pathname = usePathname();
+  const pathname = usePathname() || ''; // pathname이 null일 경우 빈 문자열을 사용합니다.
   const { tab } = useQuery();
 
   const tabs = pathname.split('/').at(-1);

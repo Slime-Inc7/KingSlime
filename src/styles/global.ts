@@ -1,8 +1,5 @@
 import { Theme, css } from 'antd-style';
 
-// fix ios input keyboard
-// overflow: hidden;
-// ref: https://zhuanlan.zhihu.com/p/113855026
 export default ({ token }: { prefixCls: string; token: Theme }) => css`
   html,
   body,
@@ -16,6 +13,8 @@ export default ({ token }: { prefixCls: string; token: Theme }) => css`
     max-height: 100dvh;
 
     background: ${token.colorBgLayout};
+
+    font-family: 'Roboto', sans-serif; /* 폰트 변경 */
 
     @media (min-device-width: 576px) {
       overflow: hidden;

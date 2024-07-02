@@ -34,13 +34,13 @@ const LocalForm = memo<{ form: FormInstance; mode?: 'edit' | 'create' }>(({ form
         isEditMode
           ? {}
           : {
-              message: t('dev.meta.identifier.errorDuplicate'),
-              validator: async (_, value) => {
-                if (pluginIds.includes(value)) {
-                  throw new Error('Duplicate');
-                }
-              },
+            message: t('dev.meta.identifier.errorDuplicate'),
+            validator: async (_, value) => {
+              if (pluginIds.includes(value)) {
+                throw new Error('Duplicate');
+              }
             },
+          },
       ],
     },
     {
@@ -57,7 +57,7 @@ const LocalForm = memo<{ form: FormInstance; mode?: 'edit' | 'create' }>(({ form
       name: ['manifest', 'meta', 'description'],
     },
     {
-      children: <Input placeholder={'LobeHub'} />,
+      children: <Input placeholder={'Slime.Inc'} />,
       desc: t('dev.meta.author.desc'),
       label: t('dev.meta.author.label'),
       name: ['manifest', 'author'],

@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\FullscreenLoading",
+    "\\src\\features",
+    "\\src\\features\\AgentInfo",
+    "\\src\\features\\AgentSetting",
+    "\\src\\features\\AgentSetting\\AgentChat",
+    "\\src\\features\\AgentSetting\\AgentMeta",
+    "\\src\\features\\User",
+    "\\src\\features\\User\\UserPanel"
+  ],
+  "SelectedNode": "\\src\\features\\AgentSetting\\AgentMeta\\AutoGenerateAvatar.tsx",
+  "PreviewInSolutionExplorer": false
+}

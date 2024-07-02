@@ -1,13 +1,12 @@
 import { DeepPartial } from 'utility-types';
 
 import { DEFAULT_AGENT_CONFIG } from '@/const/settings';
-import { AgentSettingsInstance } from '@/features/AgentSetting';
 import { LobeAgentConfig } from '@/types/agent';
 
 export interface AgentState {
   activeId: string;
+  agentAvatar: string | null; // 이동된 부분
   agentMap: Record<string, DeepPartial<LobeAgentConfig>>;
-  agentSettingInstance?: AgentSettingsInstance | null;
   defaultAgentConfig: LobeAgentConfig;
   isInboxAgentConfigInit: boolean;
   updateAgentChatConfigSignal?: AbortController;
@@ -16,6 +15,7 @@ export interface AgentState {
 
 export const initialAgentChatState: AgentState = {
   activeId: 'inbox',
+  agentAvatar: null, // 이동된 부분
   agentMap: {},
   defaultAgentConfig: DEFAULT_AGENT_CONFIG,
   isInboxAgentConfigInit: false,

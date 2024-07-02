@@ -54,7 +54,7 @@ const pluginManifestMock = {
       },
     },
   ],
-  author: 'LobeHub',
+  author: 'Slime.Inc',
   createAt: '2023-08-12',
   homepage: 'https://github.com/lobehub/chat-plugin-realtime-weather',
   identifier: 'realtime-weather',
@@ -92,7 +92,7 @@ beforeEach(() => {
       } as LobeChatPluginMeta,
     ],
   });
-  console.error = () => {};
+  console.error = () => { };
 });
 afterEach(() => {
   console.error = logError;
@@ -228,7 +228,7 @@ describe('useToolStore:pluginStore', () => {
             },
           },
         ],
-        author: 'LobeHub',
+        author: 'Slime.Inc',
         createAt: '2023-08-12',
         homepage: 'https://github.com/lobehub/chat-plugin-realtime-weather',
         identifier: 'realtime-weather',
