@@ -5,9 +5,9 @@ import { formatDescLength, formatTitleLength } from '@/utils/genOG';
 
 export class Meta {
   public generate({
-    description = 'KingSlime offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience', // 변경된 부분
+    description = 'KingSlime offers you the best ChatGPT, OLLaMA, Gemini, Claude WebUI user experience',
     title,
-    image = '/og/cover.png',
+    image = 'https://raw.githubusercontent.com/Slime-Inc7/ui/master/cover.png', // 변경된 부분
     url,
     type = 'website',
     tags,
@@ -23,12 +23,12 @@ export class Meta {
     const formatedTitle = formatTitleLength(title, 21);
     // eslint-disable-next-line no-param-reassign
     const formatedDescription = formatDescLength(description, tags);
-    const siteTitle = title.includes('KingSlime') ? title : title + ' · KingSlime'; // 변경된 부분
+    const siteTitle = title.includes('KingSlime') ? title : title + ' · KingSlime';
     return {
       alternates: { canonical: getCanonicalUrl(url) },
       description: formatedDescription,
       openGraph: this.genOpenGraph({
-        description,
+        description: formatedDescription,
         image,
         title: siteTitle,
         type,
@@ -38,7 +38,7 @@ export class Meta {
         robots: 'index,follow',
       },
       title: formatedTitle,
-      twitter: this.genTwitter({ description, image, title: siteTitle, url }),
+      twitter: this.genTwitter({ description: formatedDescription, image, title: siteTitle, url }),
     };
   }
 
@@ -84,8 +84,8 @@ export class Meta {
           url: image,
         },
       ],
-      locale: 'en-US',
-      siteName: 'KingSlime', // 변경된 부분
+      locale: 'ko-KR', // 필요에 따라 변경
+      siteName: 'KingSlime',
       title,
       type,
       url,
