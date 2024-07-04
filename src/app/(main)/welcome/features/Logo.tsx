@@ -1,20 +1,21 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { memo } from 'react';
+import { memo, CSSProperties } from 'react';
 import { Center } from 'react-layout-kit';
 
 const LogoThree = dynamic(() => import('@lobehub/ui/es/LogoThree'), { ssr: false });
-const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'), { ssr: false }); // 경로를 올바르게 수정합니다.
-
+const LogoSpline = dynamic(() => import('@lobehub/ui/es/LogoThree/LogoSpline'), { ssr: false });
 
 const Logo = memo<{ mobile?: boolean }>(({ mobile }) => {
-  const containerStyle = {
-    alignItems: 'center',   // 알파벳 순으로 정렬
+  const containerStyle: CSSProperties = {
+    alignItems: 'center',
     display: 'flex',
-    height: '100%',         // 추가: 컨테이너의 높이를 100%로 설정
+    height: '100%',
     justifyContent: 'center',
-    width: '100%',          // 추가: 컨테이너의 너비를 100%로 설정
+    position: 'relative', // 알파벳 순으로 정렬
+    width: '100%',
+    zIndex: 10,
   };
 
   return mobile ? (
@@ -24,18 +25,17 @@ const Logo = memo<{ mobile?: boolean }>(({ mobile }) => {
   ) : (
     <Center
       style={{
-        ...containerStyle,  // 추가: 중앙 정렬을 위한 스타일 추가
-        height: `min(300px, 40vw)`,
-        marginBottom: '-10%',
-        marginTop: '-20%',
-        position: 'relative',
-        width: `min(300px, 80vw)`,
+        ...containerStyle,
+        height: `min(150px, 40vw)`,
+        marginBottom: '-2%',
+        marginTop: '-2%',
+        width: `min(150px, 80vw)`,
       }}
     >
       <LogoSpline
-        height={'min(300px, 40vw)'}
-        style={containerStyle}  // 추가: 중앙 정렬을 위한 스타일 추가
-        width={'min(300px, 80vw)'}
+        height={'min(150px, 40vw)'}
+        style={containerStyle}
+        width={'min(150px, 80vw)'}
       />
     </Center>
   );
