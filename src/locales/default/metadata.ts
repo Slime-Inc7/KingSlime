@@ -1,20 +1,20 @@
 export default {
   chat: {
-    description: 'LobeChat 带给你最好的 ChatGPT, OLLaMA, Gemini, Claude WebUI 使用体验',
-    title: 'LobeChat：个人 LLM 效能工具，给自己一个更聪明的大脑',
+    description: 'KingSlime은 최고의 ChatGPT, OLLaMA, Gemini, Claude WebUI 사용 경험을 제공합니다.',
+    title: 'KingSlime: 최고의 업무 효율성을 위한 슬라임 주식회사 전용 인공지능 비서',
   },
   market: {
     description:
-      '内容创作、文案、问答、图像生成、视频生成、语音生成、智能 Agent、自动化工作流，定制你专属的 AI / GPTs / OLLaMA 智能助手',
-    title: '助手市场',
+      '콘텐츠 작성, 문구, 질의응답, 이미지 생성, 비디오 생성, 음성 생성, 지능형 에이전트, 자동화된 워크플로우를 통해 AI / GPTs / OLLaMA를 맞춤 설정하세요.',
+    title: '어시스턴트 마켓',
   },
   plugins: {
     description:
-      '搜素、图表生成、学术、图像生成、视频生成、语音生成、自动化工作流，定制 ChatGPT / OLLaMA 专属的 ToolCall 插件能力',
-    title: '插件市场',
+      '검색, 차트 생성, 학술, 이미지 생성, 비디오 생성, 음성 생성, 자동화된 워크플로우를 통해 ChatGPT / OLLaMA 전용 ToolCall 플러그인 능력을 맞춤 설정하세요.',
+    title: '플러그인 마켓',
   },
   welcome: {
-    description: 'LobeChat 带给你最好的 ChatGPT, OLLaMA, Gemini, Claude WebUI 使用体验',
-    title: '欢迎使用 LobeChat：个人 LLM 效能工具，给自己一个更聪明的大脑',
+    description: 'KingSlime은 최고의 ChatGPT, OLLaMA, Gemini, Claude WebUI 사용 경험을 제공합니다',
+    title: 'KingSlime을 사용해 주셔서 감사합니다: 최고의 업무 효율성을 위한 슬라임 주식회사 전용 인공지능 비서',
   },
 };
