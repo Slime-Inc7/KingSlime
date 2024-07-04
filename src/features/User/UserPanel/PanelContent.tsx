@@ -7,7 +7,7 @@ import Menu from '@/components/Menu';
 import { useUserStore } from '@/store/user';
 import { authSelectors } from '@/store/user/selectors';
 
-import DataStatistics from '../DataStatistics';
+// import DataStatistics from '../DataStatistics'; // 이 줄을 주석 처리하거나 제거하세요
 import UserInfo from '../UserInfo';
 import UserLoginOrSignup from '../UserLoginOrSignup';
 import LangButton from './LangButton';
@@ -50,12 +50,12 @@ const PanelContent = memo<{ closePopover: () => void }>(({ closePopover }) => {
       {!enableAuth ? (
         <>
           <UserInfo />
-          <DataStatistics />
+          {/* <DataStatistics /> // 이 줄을 주석 처리하거나 제거하세요 */}
         </>
       ) : isLoginWithAuth ? (
         <>
           <UserInfo onClick={handleOpenProfile} />
-          <DataStatistics />
+          {/* <DataStatistics /> // 이 줄을 주석 처리하거나 제거하세요 */}
         </>
       ) : (
         <UserLoginOrSignup onClick={handleSignIn} />

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\store",
+    "\\src\\store\\tool",
+    "\\src\\store\\tool\\slices",
+    "\\src\\store\\tool\\slices\\store",
+    "\\src\\store\\user",
+    "\\src\\store\\user\\slices",
+    "\\src\\store\\user\\slices\\auth",
+    "\\src\\styles"
+  ],
+  "SelectedNode": "\\src\\app\\(loading)\\Client.tsx",
+  "PreviewInSolutionExplorer": false
+}

@@ -12,7 +12,7 @@ export const generateMetadata = async () => {
   const { t } = await translation('metadata');
   return metadataModule.generate({
     description: t('welcome.description'),
-    title: t('welcome.title'),
+    title: t('인공지능 비서'),
     url: '/welcome',
   });
 };
@@ -22,7 +22,7 @@ const Page = async () => {
   const { t } = await translation('metadata');
   const ld = ldModule.generate({
     description: t('welcome.description'),
-    title: t('welcome.title'),
+    title: t('인공지능 비서'),
     url: '/welcome',
   });
 

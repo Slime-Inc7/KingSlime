@@ -1,14 +1,4 @@
-import { useGlobalStore } from '@/store/global';
-import { featureFlagsSelectors, useServerConfigStore } from '@/store/serverConfig';
-
 export const useNewVersion = () => {
-  const [hasNewVersion, useCheckLatestVersion] = useGlobalStore((s) => [
-    s.hasNewVersion,
-    s.useCheckLatestVersion,
-  ]);
-
-  const { enableCheckUpdates } = useServerConfigStore(featureFlagsSelectors);
-  useCheckLatestVersion(enableCheckUpdates);
-
-  return hasNewVersion;
+  // 필요한 로직이 없으므로 기본적으로 false를 반환합니다.
+  return false;
 };

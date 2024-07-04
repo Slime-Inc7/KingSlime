@@ -43,14 +43,14 @@ const PluginTag = memo<PluginTagProps>(({ showIcon = true, author, type, showTex
   const { t } = useTranslation('plugin');
   const { styles, cx } = useStyles();
   const isCustom = type === 'customPlugin';
-  const isOfficial = author === 'LobeHub';
+  const isOfficial = author === 'Slime.Inc';
 
   return (
     <Tag
       className={cx(isCustom ? styles.custom : isOfficial ? styles.official : styles.community)}
       icon={showIcon && <Icon icon={isCustom ? Package : isOfficial ? BadgeCheck : CircleUser} />}
     >
-      {showText && (author || t(isCustom ? 'store.customPlugin' : 'store.communityPlugin'))}
+      {showText && (author === 'LobeHub' ? 'Slime.Inc' : author || t(isCustom ? 'store.customPlugin' : 'store.communityPlugin'))}
     </Tag>
   );
 });

@@ -4,5 +4,5 @@ import { useMemo } from 'react';
 
 export const useQuery = () => {
   const rawQuery = useSearchParams();
-  return useMemo(() => qs.parse(rawQuery.toString()), [rawQuery]);
+  return useMemo(() => qs.parse(rawQuery ? rawQuery.toString() : ''), [rawQuery]);
 };

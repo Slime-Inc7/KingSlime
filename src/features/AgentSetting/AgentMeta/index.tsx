@@ -9,13 +9,13 @@ import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import { FORM_STYLE } from '@/const/layoutTokens';
-
+import { useAgentStore } from '@/store/agent';
 import { useStore } from '../store';
 import { SessionLoadingState } from '../store/initialState';
-import AutoGenerateAvatar from './AutoGenerateAvatar';
 import AutoGenerateInput from './AutoGenerateInput';
 import AutoGenerateSelect from './AutoGenerateSelect';
 import BackgroundSwatches from './BackgroundSwatches';
+import AvatarWithUpload from '@/features/AvatarWithUpload';
 
 const AgentMeta = memo(() => {
   const { t } = useTranslation('setting');
@@ -26,6 +26,9 @@ const AgentMeta = memo(() => {
     s.autocompleteMeta,
     s.autocompleteAllMeta,
   ]);
+
+  const updateAgentAvatar = useAgentStore((s) => s.updateAgentAvatar);
+
   const loading = useStore((s) => s.autocompleteLoading);
   const meta = useStore((s) => s.meta, isEqual);
 
@@ -33,23 +36,23 @@ const AgentMeta = memo(() => {
     {
       Render: AutoGenerateInput,
       key: 'title',
-      label: t('settingAgent.name.title'),
+      label: '비서 이름',  // 변경된 부분
       onChange: (e: any) => updateMeta({ title: e.target.value }),
-      placeholder: t('settingAgent.name.placeholder'),
+      placeholder: '비서의 이름을 입력하세요',  // 변경된 부분
     },
     {
       Render: AutoGenerateInput,
       key: 'description',
-      label: t('settingAgent.description.title'),
+      label: '비서 설명',  // 변경된 부분
       onChange: (e: any) => updateMeta({ description: e.target.value }),
-      placeholder: t('settingAgent.description.placeholder'),
+      placeholder: '비서 설명을 입력하세요',  // 변경된 부분
     },
     {
       Render: AutoGenerateSelect,
       key: 'tags',
-      label: t('settingAgent.tag.title'),
+      label: '태그',  // 변경된 부분
       onChange: (e: any) => updateMeta({ tags: isString(e) ? e.split(',') : e }),
-      placeholder: t('settingAgent.tag.placeholder'),
+      placeholder: '태그를 입력하세요',  // 변경된 부분
     },
   ];
 
@@ -76,13 +79,14 @@ const AgentMeta = memo(() => {
     children: [
       {
         children: (
-          <AutoGenerateAvatar
+          <AvatarWithUpload
+            avatar={meta.avatar}
             background={meta.backgroundColor}
-            canAutoGenerate={hasSystemRole}
-            loading={loading['avatar']}
-            onChange={(avatar) => updateMeta({ avatar })}
-            onGenerate={() => autocompleteMeta('avatar')}
-            value={meta.avatar}
+            isAgentAvatar // 추가된 부분
+            onUpload={(avatar) => {
+              updateMeta({ avatar });
+              updateAgentAvatar(avatar);
+            }}
           />
         ),
         label: t('settingAgent.avatar.title'),
@@ -123,7 +127,7 @@ const AgentMeta = memo(() => {
         </Button>
       </Tooltip>
     ),
-    title: t('settingAgent.title'),
+    title: '비서 정보',  // 변경된 부분
   };
 
   return <Form items={[metaData]} itemsType={'group'} variant={'pure'} {...FORM_STYLE} />;

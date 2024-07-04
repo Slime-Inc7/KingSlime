@@ -12,6 +12,7 @@ import { DB_Session } from '../schemas/session';
 import { DB_SessionGroup } from '../schemas/sessionGroup';
 import { DB_Topic } from '../schemas/topic';
 import { DB_User } from '../schemas/user';
+import { DB_Agent } from '../schemas/agent'; // 추가된 부분
 import { migrateSettingsToUser } from './migrations/migrateSettingsToUser';
 import {
   dbSchemaV1,
@@ -26,6 +27,7 @@ import {
 import { DBModel, LOBE_CHAT_LOCAL_DB_NAME } from './types/db';
 
 export interface LobeDBSchemaMap {
+  agents: DB_Agent; // 추가된 부분
   files: DB_File;
   messages: DB_Message;
   plugins: DB_Plugin;
@@ -37,6 +39,7 @@ export interface LobeDBSchemaMap {
 
 // Define a local DB
 export class BrowserDB extends Dexie {
+  public agents: BrowserDBTable<'agents'>; // 추가된 부분
   public files: BrowserDBTable<'files'>;
   public sessions: BrowserDBTable<'sessions'>;
   public messages: BrowserDBTable<'messages'>;
@@ -82,6 +85,14 @@ export class BrowserDB extends Dexie {
       .stores(dbSchemaV9)
       .upgrade((trans) => this.upgradeToV11(trans));
 
+    this.version(12)
+      .stores({
+        ...dbSchemaV9,
+        agents: 'id', // 새로운 agents 테이블 추가
+      })
+      .upgrade(() => this.upgradeToV12()); // _trans 제거
+
+    this.agents = this.table('agents'); // 추가된 부분
     this.files = this.table('files');
     this.sessions = this.table('sessions');
     this.messages = this.table('messages');
@@ -90,6 +101,8 @@ export class BrowserDB extends Dexie {
     this.sessionGroups = this.table('sessionGroups');
     this.users = this.table('users');
   }
+
+  // 기존 업그레이드 메서드들...
 
   /**
    * 2024.01.22
@@ -225,6 +238,11 @@ export class BrowserDB extends Dexie {
         user.settings = MigrationKeyValueSettings.migrateSettings(user.settings as any);
       }
     });
+  };
+
+  // 추가된 업그레이드 메서드
+  upgradeToV12 = async () => {
+    // 필요한 마이그레이션 작업 수행
   };
 }
 

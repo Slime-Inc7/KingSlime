@@ -11,7 +11,7 @@ const Header = memo(() => {
   const { t } = useTranslation('auth');
 
   const router = useRouter();
-  const pathname = usePathname();
+  const pathname = usePathname() || ""; // 여기서 빈 문자열을 기본값으로 설정
   const isSecurity = pathname.startsWith('/prifile/security');
   return (
     <MobileNavBar

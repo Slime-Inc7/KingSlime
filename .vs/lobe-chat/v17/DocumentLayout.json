@@ -1,0 +1,895 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\retry\\lobe-chat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\const\\meta.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\const\\meta.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\features\\Logo.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\welcome\\features\\Logo.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(loading)\\Client.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(loading)\\Client.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\styles\\global.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\global.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\user\\slices\\auth\\selectors.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\user\\slices\\auth\\selectors.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\tool\\slices\\store\\action.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\tool\\slices\\store\\action.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\tool\\slices\\builtin\\selectors.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\tool\\slices\\builtin\\selectors.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\tool\\selectors\\tool.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\tool\\selectors\\tool.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\agent\\store.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\agent\\store.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\agent\\initialState.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\agent\\initialState.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\store\\agent\\slices\\chat\\initialState.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store\\agent\\slices\\chat\\initialState.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\services\\agent\\client.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\agent\\client.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\server\\metadata.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\server\\metadata.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\server\\ld.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\server\\ld.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\layout\\GlobalProvider\\StoreInitialization.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\layout\\GlobalProvider\\StoreInitialization.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\hooks\\useQuery.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useQuery.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\hooks\\useQuery.test.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useQuery.test.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\hooks\\useIsSubSlug.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useIsSubSlug.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\hooks\\useActiveTabKey.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useActiveTabKey.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\hooks\\useActiveSettingsKey.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\hooks\\useActiveSettingsKey.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\User\\UserAvatar.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\User\\UserAvatar.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\User\\UserPanel\\useNewVersion.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\User\\UserPanel\\useNewVersion.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\User\\UserPanel\\PanelContent.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\User\\UserPanel\\PanelContent.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\PluginStore\\PluginItem\\PluginTag.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\PluginStore\\PluginItem\\PluginTag.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\PluginDevModal\\LocalForm.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\PluginDevModal\\LocalForm.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\MobileSwitchLoading\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\MobileSwitchLoading\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\Conversation\\components\\InboxWelcome\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\Conversation\\components\\InboxWelcome\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\AvatarWithUpload\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\AvatarWithUpload\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\features\\AgentSetting\\AgentMeta\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\features\\AgentSetting\\AgentMeta\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\database\\client\\schemas\\agent.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\database\\client\\schemas\\agent.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\database\\client\\models\\agent.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\database\\client\\models\\agent.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\database\\client\\core\\db.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\database\\client\\core\\db.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\database\\client\\core\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\database\\client\\core\\index.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\components\\PageTitle\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\PageTitle\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\components\\FullscreenLoading\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\FullscreenLoading\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\components\\BrandWatermark\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\BrandWatermark\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\metadata.ts||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\metadata.ts||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\@modal\\(.)settings\\modal\\layout.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\@modal\\(.)settings\\modal\\layout.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\_layout\\Mobile.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\_layout\\Mobile.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\page.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\welcome\\page.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\_layout\\Desktop.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\welcome\\_layout\\Desktop.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\features\\Hero.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\welcome\\features\\Hero.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\features\\UpgradeAlert.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\settings\\features\\UpgradeAlert.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\about\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\settings\\about\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\about\\features\\Version.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\settings\\about\\features\\Version.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\@category\\default.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\settings\\@category\\default.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\@category\\features\\UpgradeAlert.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\settings\\@category\\features\\UpgradeAlert.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\profile\\_layout\\Mobile\\Header.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\profile\\_layout\\Mobile\\Header.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\features\\PageTitle\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\chat\\features\\PageTitle\\index.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\features\\Migration\\ExportConfigButton.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\chat\\features\\Migration\\ExportConfigButton.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\(workspace)\\page.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\(main)\\chat\\(workspace)\\page.tsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "global.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\styles\\global.ts",
+              "RelativeDocumentMoniker": "src\\styles\\global.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\styles\\global.ts",
+              "RelativeToolTip": "src\\styles\\global.ts",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:39:54.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "selectors.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\user\\slices\\auth\\selectors.ts",
+              "RelativeDocumentMoniker": "src\\store\\user\\slices\\auth\\selectors.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\user\\slices\\auth\\selectors.ts",
+              "RelativeToolTip": "src\\store\\user\\slices\\auth\\selectors.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:39:39.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "action.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\tool\\slices\\store\\action.ts",
+              "RelativeDocumentMoniker": "src\\store\\tool\\slices\\store\\action.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\tool\\slices\\store\\action.ts",
+              "RelativeToolTip": "src\\store\\tool\\slices\\store\\action.ts",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAG8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:39:20.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "selectors.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\tool\\slices\\builtin\\selectors.ts",
+              "RelativeDocumentMoniker": "src\\store\\tool\\slices\\builtin\\selectors.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\tool\\slices\\builtin\\selectors.ts",
+              "RelativeToolTip": "src\\store\\tool\\slices\\builtin\\selectors.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:39:05.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tool.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\tool\\selectors\\tool.ts",
+              "RelativeDocumentMoniker": "src\\store\\tool\\selectors\\tool.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\tool\\selectors\\tool.ts",
+              "RelativeToolTip": "src\\store\\tool\\selectors\\tool.ts",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:38:43.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "store.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\agent\\store.ts",
+              "RelativeDocumentMoniker": "src\\store\\agent\\store.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\agent\\store.ts",
+              "RelativeToolTip": "src\\store\\agent\\store.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:38:28.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "initialState.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\agent\\initialState.ts",
+              "RelativeDocumentMoniker": "src\\store\\agent\\initialState.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\agent\\initialState.ts",
+              "RelativeToolTip": "src\\store\\agent\\initialState.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:38:21.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "initialState.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\store\\agent\\slices\\chat\\initialState.ts",
+              "RelativeDocumentMoniker": "src\\store\\agent\\slices\\chat\\initialState.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\store\\agent\\slices\\chat\\initialState.ts",
+              "RelativeToolTip": "src\\store\\agent\\slices\\chat\\initialState.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:38:13.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "client.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\services\\agent\\client.ts",
+              "RelativeDocumentMoniker": "src\\services\\agent\\client.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\services\\agent\\client.ts",
+              "RelativeToolTip": "src\\services\\agent\\client.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:37:55.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(loading)\\Client.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(loading)\\Client.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(loading)\\Client.tsx",
+              "RelativeToolTip": "src\\app\\(loading)\\Client.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T07:57:23.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logo.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\features\\Logo.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\welcome\\features\\Logo.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\features\\Logo.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\welcome\\features\\Logo.tsx",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:24:15.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "meta.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\const\\meta.ts",
+              "RelativeDocumentMoniker": "src\\const\\meta.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\const\\meta.ts",
+              "RelativeToolTip": "src\\const\\meta.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:29:26.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "metadata.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\server\\metadata.ts",
+              "RelativeDocumentMoniker": "src\\server\\metadata.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\server\\metadata.ts",
+              "RelativeToolTip": "src\\server\\metadata.ts",
+              "ViewState": "AQIAADwAAAAAAAAAAAAqwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:37:27.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ld.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\server\\ld.ts",
+              "RelativeDocumentMoniker": "src\\server\\ld.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\server\\ld.ts",
+              "RelativeToolTip": "src\\server\\ld.ts",
+              "ViewState": "AQIAALYAAAAAAAAAAAAqwNoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:37:21.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StoreInitialization.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\layout\\GlobalProvider\\StoreInitialization.tsx",
+              "RelativeDocumentMoniker": "src\\layout\\GlobalProvider\\StoreInitialization.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\layout\\GlobalProvider\\StoreInitialization.tsx",
+              "RelativeToolTip": "src\\layout\\GlobalProvider\\StoreInitialization.tsx",
+              "ViewState": "AQIAACcAAAAAAAAAAAAqwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:36:36.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "useQuery.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\hooks\\useQuery.ts",
+              "RelativeDocumentMoniker": "src\\hooks\\useQuery.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\hooks\\useQuery.ts",
+              "RelativeToolTip": "src\\hooks\\useQuery.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:34:33.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "useQuery.test.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\hooks\\useQuery.test.ts",
+              "RelativeDocumentMoniker": "src\\hooks\\useQuery.test.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\hooks\\useQuery.test.ts",
+              "RelativeToolTip": "src\\hooks\\useQuery.test.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:34:32.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "useIsSubSlug.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\hooks\\useIsSubSlug.ts",
+              "RelativeDocumentMoniker": "src\\hooks\\useIsSubSlug.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\hooks\\useIsSubSlug.ts",
+              "RelativeToolTip": "src\\hooks\\useIsSubSlug.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:34:25.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "useActiveTabKey.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\hooks\\useActiveTabKey.ts",
+              "RelativeDocumentMoniker": "src\\hooks\\useActiveTabKey.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\hooks\\useActiveTabKey.ts",
+              "RelativeToolTip": "src\\hooks\\useActiveTabKey.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:34:19.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "useActiveSettingsKey.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\hooks\\useActiveSettingsKey.ts",
+              "RelativeDocumentMoniker": "src\\hooks\\useActiveSettingsKey.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\hooks\\useActiveSettingsKey.ts",
+              "RelativeToolTip": "src\\hooks\\useActiveSettingsKey.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:34:14.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserAvatar.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\User\\UserAvatar.tsx",
+              "RelativeDocumentMoniker": "src\\features\\User\\UserAvatar.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\User\\UserAvatar.tsx",
+              "RelativeToolTip": "src\\features\\User\\UserAvatar.tsx",
+              "ViewState": "AQIAACcAAAAAAAAAAAAqwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:33:56.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "useNewVersion.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\User\\UserPanel\\useNewVersion.tsx",
+              "RelativeDocumentMoniker": "src\\features\\User\\UserPanel\\useNewVersion.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\User\\UserPanel\\useNewVersion.tsx",
+              "RelativeToolTip": "src\\features\\User\\UserPanel\\useNewVersion.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:33:50.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PanelContent.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\User\\UserPanel\\PanelContent.tsx",
+              "RelativeDocumentMoniker": "src\\features\\User\\UserPanel\\PanelContent.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\User\\UserPanel\\PanelContent.tsx",
+              "RelativeToolTip": "src\\features\\User\\UserPanel\\PanelContent.tsx",
+              "ViewState": "AQIAADEAAAAAAAAAAAAqwFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:33:42.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PluginTag.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\PluginStore\\PluginItem\\PluginTag.tsx",
+              "RelativeDocumentMoniker": "src\\features\\PluginStore\\PluginItem\\PluginTag.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\PluginStore\\PluginItem\\PluginTag.tsx",
+              "RelativeToolTip": "src\\features\\PluginStore\\PluginItem\\PluginTag.tsx",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:33:27.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LocalForm.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\PluginDevModal\\LocalForm.tsx",
+              "RelativeDocumentMoniker": "src\\features\\PluginDevModal\\LocalForm.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\PluginDevModal\\LocalForm.tsx",
+              "RelativeToolTip": "src\\features\\PluginDevModal\\LocalForm.tsx",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAqwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:33:12.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\MobileSwitchLoading\\index.tsx",
+              "RelativeDocumentMoniker": "src\\features\\MobileSwitchLoading\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\MobileSwitchLoading\\index.tsx",
+              "RelativeToolTip": "src\\features\\MobileSwitchLoading\\index.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:32:55.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\Conversation\\components\\InboxWelcome\\index.tsx",
+              "RelativeDocumentMoniker": "src\\features\\Conversation\\components\\InboxWelcome\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\Conversation\\components\\InboxWelcome\\index.tsx",
+              "RelativeToolTip": "src\\features\\Conversation\\components\\InboxWelcome\\index.tsx",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:32:41.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\AvatarWithUpload\\index.tsx",
+              "RelativeDocumentMoniker": "src\\features\\AvatarWithUpload\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\AvatarWithUpload\\index.tsx",
+              "RelativeToolTip": "src\\features\\AvatarWithUpload\\index.tsx",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:32:20.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\features\\AgentSetting\\AgentMeta\\index.tsx",
+              "RelativeDocumentMoniker": "src\\features\\AgentSetting\\AgentMeta\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\features\\AgentSetting\\AgentMeta\\index.tsx",
+              "RelativeToolTip": "src\\features\\AgentSetting\\AgentMeta\\index.tsx",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAqwIgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:32:06.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "agent.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\database\\client\\schemas\\agent.ts",
+              "RelativeDocumentMoniker": "src\\database\\client\\schemas\\agent.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\database\\client\\schemas\\agent.ts",
+              "RelativeToolTip": "src\\database\\client\\schemas\\agent.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:31:53.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "agent.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\database\\client\\models\\agent.ts",
+              "RelativeDocumentMoniker": "src\\database\\client\\models\\agent.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\database\\client\\models\\agent.ts",
+              "RelativeToolTip": "src\\database\\client\\models\\agent.ts",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:31:36.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "db.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\database\\client\\core\\db.ts",
+              "RelativeDocumentMoniker": "src\\database\\client\\core\\db.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\database\\client\\core\\db.ts",
+              "RelativeToolTip": "src\\database\\client\\core\\db.ts",
+              "ViewState": "AQIAAOQAAAAAAAAAAAAqwAgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:31:14.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "index.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\database\\client\\core\\index.ts",
+              "RelativeDocumentMoniker": "src\\database\\client\\core\\index.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\database\\client\\core\\index.ts",
+              "RelativeToolTip": "src\\database\\client\\core\\index.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:31:13.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\components\\PageTitle\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\PageTitle\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\components\\PageTitle\\index.tsx",
+              "RelativeToolTip": "src\\components\\PageTitle\\index.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:29:16.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\components\\BrandWatermark\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\BrandWatermark\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\components\\BrandWatermark\\index.tsx",
+              "RelativeToolTip": "src\\components\\BrandWatermark\\index.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:28:48.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "metadata.ts",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\metadata.ts",
+              "RelativeDocumentMoniker": "src\\app\\metadata.ts",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\metadata.ts",
+              "RelativeToolTip": "src\\app\\metadata.ts",
+              "ViewState": "AQIAABYAAAAAAAAAAAAqwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:28:13.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "layout.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\@modal\\(.)settings\\modal\\layout.tsx",
+              "RelativeDocumentMoniker": "src\\app\\@modal\\(.)settings\\modal\\layout.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\@modal\\(.)settings\\modal\\layout.tsx",
+              "RelativeToolTip": "src\\app\\@modal\\(.)settings\\modal\\layout.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:27:46.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "page.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\welcome\\page.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\page.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\welcome\\page.tsx",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:24:55.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Mobile.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\_layout\\Mobile.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\_layout\\Mobile.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\_layout\\Mobile.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\_layout\\Mobile.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:24:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Desktop.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\_layout\\Desktop.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\welcome\\_layout\\Desktop.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\_layout\\Desktop.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\welcome\\_layout\\Desktop.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:24:38.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Hero.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\features\\Hero.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\welcome\\features\\Hero.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\welcome\\features\\Hero.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\welcome\\features\\Hero.tsx",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:24:01.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpgradeAlert.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\features\\UpgradeAlert.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\settings\\features\\UpgradeAlert.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\features\\UpgradeAlert.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\settings\\features\\UpgradeAlert.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:20:53.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\about\\index.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\settings\\about\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\about\\index.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\settings\\about\\index.tsx",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAqwIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:20:13.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\components\\FullscreenLoading\\index.tsx",
+              "RelativeDocumentMoniker": "src\\components\\FullscreenLoading\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\components\\FullscreenLoading\\index.tsx",
+              "RelativeToolTip": "src\\components\\FullscreenLoading\\index.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T07:55:54.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Version.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\about\\features\\Version.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\settings\\about\\features\\Version.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\about\\features\\Version.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\settings\\about\\features\\Version.tsx",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:19:41.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "default.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\@category\\default.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\settings\\@category\\default.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\@category\\default.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\settings\\@category\\default.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:19:19.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UpgradeAlert.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\@category\\features\\UpgradeAlert.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\settings\\@category\\features\\UpgradeAlert.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\settings\\@category\\features\\UpgradeAlert.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\settings\\@category\\features\\UpgradeAlert.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:19:02.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Header.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\profile\\_layout\\Mobile\\Header.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\profile\\_layout\\Mobile\\Header.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\profile\\_layout\\Mobile\\Header.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\profile\\_layout\\Mobile\\Header.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:15:13.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "index.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\features\\PageTitle\\index.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\chat\\features\\PageTitle\\index.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\features\\PageTitle\\index.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\chat\\features\\PageTitle\\index.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:10:54.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ExportConfigButton.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\features\\Migration\\ExportConfigButton.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\chat\\features\\Migration\\ExportConfigButton.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\features\\Migration\\ExportConfigButton.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\chat\\features\\Migration\\ExportConfigButton.tsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:04:52.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "page.tsx",
+              "DocumentMoniker": "E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\(workspace)\\page.tsx",
+              "RelativeDocumentMoniker": "src\\app\\(main)\\chat\\(workspace)\\page.tsx",
+              "ToolTip": "E:\\retry\\lobe-chat\\src\\app\\(main)\\chat\\(workspace)\\page.tsx",
+              "RelativeToolTip": "src\\app\\(main)\\chat\\(workspace)\\page.tsx",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-07-04T08:00:47.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
