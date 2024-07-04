@@ -19,8 +19,8 @@ const Logo = memo<{ mobile?: boolean }>(({ mobile }) => {
   };
 
   return mobile ? (
-    <Center height={240} width={240}>
-      <LogoThree size={240} />
+    <Center height={150} width={150}>
+      <LogoThree size={150} />
     </Center>
   ) : (
     <Center
