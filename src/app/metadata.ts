@@ -5,6 +5,7 @@ import { OFFICIAL_URL } from '@/const/url';
 import { translation } from '@/server/translation';
 
 const title = 'KingSlime';
+const siteName = 'KingSlime'; // 원하는 사이트 이름
 
 const { SITE_URL = OFFICIAL_URL } = getAppConfig();
 const BASE_PATH = appEnv.NEXT_PUBLIC_BASE_PATH;
@@ -32,12 +33,12 @@ export const generateMetadata = async (): Promise<Metadata> => {
       images: [
         {
           alt: t('KingSlime'),
-          height: 640,
-          url: '/og/cover.png',
-          width: 1200,
+          height: 500,
+          url: 'https://raw.githubusercontent.com/Slime-Inc7/ui/master/cover.png',
+          width: 500,
         },
       ],
-      locale: 'en-US',
+      locale: 'ko-KR',
       siteName: title,
       title: title,
       type: 'website',
@@ -50,7 +51,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     twitter: {
       card: 'summary_large_image',
       description: t('chat.description'),
-      images: ['/og/cover.png'],
+      images: ['https://raw.githubusercontent.com/Slime-Inc7/ui/master/cover.png'],
       site: '@lobehub',
       title: t('KingSlime'),
     },
