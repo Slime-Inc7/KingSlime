@@ -1,3 +1,4 @@
+import { redirect } from 'next/navigation';
 import StructuredData from '@/components/StructuredData';
 import { ldModule } from '@/server/ld';
 import { metadataModule } from '@/server/metadata';
@@ -19,6 +20,8 @@ export const generateMetadata = async () => {
 
 const Page = async () => {
   const mobile = isMobileDevice();
+  if (mobile) return redirect('/chat');  // 모바일 접속 시 chat 페이지로 리다이렉트
+
   const { t } = await translation('metadata');
   const ld = ldModule.generate({
     description: t('welcome.description'),
