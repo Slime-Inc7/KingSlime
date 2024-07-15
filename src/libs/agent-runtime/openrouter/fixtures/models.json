@@ -151,7 +151,7 @@
   },
   // 파인튜닝된 모델 추가
   {
-    "id": "ft:gpt-3.5-turbo-0125::slime:9l7UT6k6",
+    "id": "ft:gpt-3.5-turbo-0125::slime:9lA2AkOe",
     "name": "원고쟁이 슬라임",
     "description": "Fine-tuned Slime for writing a manuscript",
     "pricing": {
@@ -160,7 +160,7 @@
       "image": "0",
       "request": "0"
     },
-    "context_length": 16385,
+    "context_length": 4096,
     "architecture": {
       "modality": "text",
       "tokenizer": "GPT",
