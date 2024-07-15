@@ -131,6 +131,15 @@ const OpenAI: ModelProviderCard = {
       tokens: 128_000,
       vision: true,
     },
+    // 파인튜닝된 모델 추가
+    {
+      description: 'Fine-tuned Slime for writing a manuscript ',
+      displayName: '원고쟁이 슬라임',
+      enabled: true,
+      functionCall: true,
+      id: 'ft:gpt-3.5-turbo-0125::slime:9l7UT6k6',
+      tokens: 16_385, // 적절한 토큰 수 설정
+    }
   ],
   checkModel: 'gpt-3.5-turbo',
   enabled: true,
